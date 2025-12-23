@@ -7,12 +7,12 @@ Design token reference for government e-services.
 ## Installation
 
 ```bash
-npm install @gov-ui/tokens
+npm install https://github.com/gov-design-system/gov-ui-tokens/releases/download/v1.0.0/gov-ui-tokens-1.0.0.tgz
 ```
 
 ```css
 /* app/globals.css */
-@import "@gov-ui/tokens/styles.css";
+@import "@gov-ui/tokens/packages/gov-ui-tokens/src/index.css";
 @import "tailwindcss";
 ```
 
